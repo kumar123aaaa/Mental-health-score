@@ -50,6 +50,7 @@ def greet():
 
 
 
+
 @app.post('/predict', response_model=PredictionResponse) 
 def predict(data: StudentData):
    
